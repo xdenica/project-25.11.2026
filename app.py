@@ -5,8 +5,7 @@ import streamlit as st
 
 st.title("Обичаш ли Python?")
 
-answer = st.radio(
-    "Обичаш ли Python?",
+answer = st.radio("Обичаш ли Python?",
     ["да", "не"]
 )
 
